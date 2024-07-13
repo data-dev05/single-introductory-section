@@ -5,3 +5,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: $Violet;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+#image-container {
+    position: relative;
+    padding: 3rem;
+    width: 100%;
+    text-align: left;
+}
+
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+#foreground-img {
+    width: 40%;
+    margin-bottom: 5rem;
+
+    &-2{
+        width: 100%;
+    }
+}
+
+footer {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-family: $Family-Poppins;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: $Family-Open-Sans;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+button {
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: $Violet;
+}
+
+#social-media {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+i {
+    border: 1px solid white;
+    padding: 0.3rem;
+    border-radius: 50%;
+}

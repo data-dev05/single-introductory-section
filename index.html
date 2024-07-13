@@ -14,16 +14,16 @@
   
 </head>
 <body>
-  <main>
-    <div>
+  <main id="image-container">
       <picture>
         <source media="(max-width: 768px)" srcset="./images/bg-mobile.svg">
         <source media="(min-width: 769px)" srcset="./images/bg-desktop.svg">
-        <img src="./images/bg-desktop.svg" alt="">
+        <img id="background-image" src="./images/bg-desktop.svg" alt="background image">
       </picture>
-      <img src="./images/logo.svg" alt="">
-      <img src="./images/illustration-mockups.svg" alt="">
-    </div>
+      <img id="foreground-img" src="./images/logo.svg" alt="">
+      <img id="foreground-img-2" src="./images/illustration-mockups.svg" alt="">
+  </main>
+  <footer>
     <h1>Build The Community Your Fans Will Love</h1>
 
     <p>
@@ -32,11 +32,12 @@
     </p>
   
     <button>Register</button>
-  </main>
-  <footer>
-    <i class="bi bi-facebook"></i>
-    <i class="bi bi-twitter"></i>
-    <i class="bi bi-instagram"></i>
+    
+    <div id="social-media">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-instagram"></i>
+    </div>
   </footer>
 </body>
 </html>
