@@ -94,10 +94,24 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
   }
   #foreground-img {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    width: 15vw;
+  }
+  #foreground-img-2 {
+    width: auto;
+    height: 35vw;
+  }
+  footer {
+    align-items: start;
+  }
+  #social-media {
+    justify-content: end;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 1;
   }
 }
 
