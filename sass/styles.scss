@@ -15,7 +15,7 @@ body {
 
 #image-container {
     position: relative;
-    padding: 3rem;
+    padding: 5%;
     width: 100%;
     text-align: left;
     height: 100%;
@@ -96,5 +96,11 @@ i {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        border: 1px solid red;
+
+    }
+
+    #foreground-img {
+        margin-bottom: 2rem;
     }
 }
