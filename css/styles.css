@@ -64,6 +64,13 @@ button {
   padding: 0.5rem;
   border-radius: 1rem;
   color: hsl(257, 40%, 49%);
+  border: none;
+  box-shadow: 0 1px 0.5rem black;
+}
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(300, 69%, 71%);
 }
 
 #social-media {
@@ -78,6 +85,11 @@ i {
   border: 1px solid white;
   padding: 0.3rem;
   border-radius: 50%;
+}
+i:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

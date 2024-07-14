@@ -65,6 +65,14 @@ button {
     padding: 0.5rem;
     border-radius: 1rem;
     color: $Violet;
+    border: none;
+    box-shadow: 0 1px 0.5rem black;
+
+    &:hover {
+        cursor: pointer;
+        color: white;
+        background-color: $Soft-Magenta;
+    }
 }
 
 #social-media {
@@ -79,6 +87,12 @@ i {
     border: 1px solid white;
     padding: 0.3rem;
     border-radius: 50%;
+
+    &:hover {
+        color: $Soft-Magenta;
+        border: 1px solid $Soft-Magenta;
+        cursor: pointer;
+    }
 }
 
 @media (min-width: 768px) {
